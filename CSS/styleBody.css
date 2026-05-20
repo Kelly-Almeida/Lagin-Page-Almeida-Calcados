@@ -1,0 +1,15 @@
+
+
+/*Limpeza de atributos pré estabelecido no css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* congelamento de tela */
+#container{
+    max-width: 1900px;
+    min-width: 1000px;
+}
