@@ -5,84 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calçados Almeida</title>
 
+    <link rel="stylesheet" href="/CSS/styleEmDestaque.css">
     <link rel="stylesheet" href="/CSS/styleBody.css">
     <link rel="stylesheet" href="/CSS/styleCarrossel.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Div para congelamento de tela -->
     <div id="container">
-        <!-- HEADER -->
-
-        
-        <section id = "Podutos">
-            <!-- DIV de com imagem de capa -->
-
-            <!-- Produtos em destaque (KELLY) -->
-            <div class="EmDestaque">
-                <div class="tituloH2">
-                    <img src="" alt="Brilho">
+        <section id="Produtos">
+            <div class="EmDestaque container my-5">
+                <div class="titulo text-center mb-4">
+                    <img src="/imagens/headerDivIMG/brilhoBranco.png" alt="Brilho">
                     <h2>Em Destaque</h2>
-                    <img src="" alt="Brilho">
+                    <img src="/imagens/headerDivIMG/brilhoBranco.png" alt="Brilho">
                 </div>
 
-                <!-- Carrossel de produtos -->
-                <div class="ProdutosEmDestaque">
-                    <div class="ItemProdutoDestaque">
-                        <img src="" alt="" class="ImgProdutoDestaque">
-
-                        <!-- Colocar link do whatsapp -->
-                        <div class="butaoProdutoDestaque">
-                            <a href="">Pedir já!</a>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active">
+                            <div class="row text-center">
+                                <div class="col-md-4 mb-3">
+                                    <img src="/imagens/CarrosselProdutos/HavainaBrancaPersonalizada.png" alt="Chinelo Havaianas" class="img-fluid bg-transparent">
+                                    <div class="butaoProdutoDestaque mt-2">
+                                        <a href="#" class="btn btn-primary">Pedir já!</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <img src="/imagens/CarrosselProdutos/sapatoSocial.png" alt="Sapato social de couro preto" class="img-fluid bg-transparent">
+                                    <div class="butaoProdutoDestaque mt-2">
+                                        <a href="#" class="btn btn-primary">Pedir já!</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <img src="/imagens/CarrosselProdutos/SandaliaPretaEstrela.png" alt="Chinelo Papeti preta" class="img-fluid bg-transparent">
+                                    <div class="butaoProdutoDestaque mt-2">
+                                        <a href="#" class="btn btn-primary">Pedir já!</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="carousel-item">
+                            <div class="row text-center">
+                                <div class="col-md-4 mb-3">
+                                    <img src="/imagens/CarrosselProdutos/botaMarrom.png" alt="Bota Marrom" class="img-fluid bg-transparent">
+                                    <div class="butaoProdutoDestaque mt-2">
+                                        <a href="#" class="btn btn-primary">Pedir já!</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <img src="/imagens/CarrosselProdutos/exemplo5.png" alt="Produto 5" class="img-fluid bg-transparent">
+                                    <div class="butaoProdutoDestaque mt-2">
+                                        <a href="#" class="btn btn-primary">Pedir já!</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <img src="/imagens/CarrosselProdutos/exemplo6.png" alt="Produto 6" class="img-fluid bg-transparent">
+                                    <div class="butaoProdutoDestaque mt-2">
+                                        <a href="#" class="btn btn-primary">Pedir já!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="ItemProdutoDestaque">
-                        <img src="" alt="" class="ImgProdutoDestaque">
 
-                        <!-- Colocar link do whatsapp -->
-                        <div class="butaoProdutoDestaque">
-                            <a href="">Pedir já!</a>
-                        </div>
-                    </div>
-
-                    <div class="ItemProdutoDestaque">
-                        <img src="" alt="" class="ImgProdutoDestaque">
-
-                        <!-- Colocar link do whatsapp -->
-                        <div class="butaoProdutoDestaque">
-                            <a href="">Pedir já!</a>
-                        </div>
-                    </div>
-
-                    <div class="ItemProdutoDestaque">
-                        <img src="" alt="" class="ImgProdutoDestaque">
-
-                        <!-- Colocar link do whatsapp -->
-                        <div class="butaoProdutoDestaque">
-                            <a href="">Pedir já!</a>
-                        </div>
-                    </div>
-
-                    <div class="ItemProdutoDestaque">
-                        <img src="" alt="" class="ImgProdutoDestaque">
-
-                        <!-- Colocar link do whatsapp -->
-                        <div class="butaoProdutoDestaque">
-                            <a href="">Pedir já!</a>
-                        </div>
-                    </div>
-
-                    <div class="ItemProdutoDestaque">
-                        <img src="" alt="" class="ImgProdutoDestaque">
-
-                        <!-- Colocar link do whatsapp -->
-                        <div class="butaoProdutoDestaque">
-                            <a href="">Pedir já!</a>
-                        </div>
-                    </div> 
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
                 </div>
+
             </div>
-
         </section>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

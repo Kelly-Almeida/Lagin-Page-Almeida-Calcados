@@ -1,0 +1,8 @@
+.EmDestaque{
+    
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+}
