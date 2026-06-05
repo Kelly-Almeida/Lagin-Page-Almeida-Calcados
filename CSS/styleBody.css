@@ -5,11 +5,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    margin:auto;
 }
 
 
 /* congelamento de tela */
-#container{
+#containerTotal{
     max-width: 1900px;
     min-width: 1000px;
 }

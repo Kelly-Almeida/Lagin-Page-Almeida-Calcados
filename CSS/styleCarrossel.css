@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url('/FONTS/Cinzel-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Monteserrat italic";
+    src: url('/FONTS/Montserrat-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Monteserrat";
+    src: url('/FONTS/Montserrat-VariableFont_wght.ttf');
+}
+
+.tamanItem{
+    border: 1px solid #ccc;
+    height: 400px;
+    padding: 40px;
+}
+
+.emDesestaquesH3{
+    margin: auto;
+    width: 80%;
+    font-family: "Monteserrat";
+    font-size: 1rem;
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.botao-Verde {
+    display: inline-block;
+    padding: 10px 80px;
+    background-color: #1B352C;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Monteserrat";
+}
+
+.ladoEsquerdo{
+    margin-left: -150px;
+}
+
+.ladoDireito{
+    margin-right: -150px;
+}
+
+
+.EmDestaqueCarrossel{
+    background-color: #ffffff;
+
+}

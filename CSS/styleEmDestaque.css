@@ -1,8 +1,49 @@
-.EmDestaque{
-    
+@font-face {
+    font-family: "Cinzel";
+    src: url('/FONTS/Cinzel-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Monteserrat italic";
+    src: url('/FONTS/Montserrat-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Monteserrat";
+    src: url('/FONTS/Montserrat-VariableFont_wght.ttf');
 }
 
-.titulo{
+.EmDestaques{
+    background-color: #ffffff;
+}
+
+.EmDestaque{
+    margin:auto;
+}
+
+
+.brilho{
+    width: 40px;
+    height: 40px;
+}
+
+.telaInteira{
+    width: 100%;
+}
+.EmDestaqueTitulo{
+    background-color: #4b5f58;
     display: flex;
-    flex-direction: row;
+    padding: 20px;
+    font-family: "Cinzel";
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.tituloEmDestaque{
+    display: flex;
+    gap: 20px;
+}
+
+.Verde{
+    background-color: #4b5f58;
+    padding: 10px;
 }
