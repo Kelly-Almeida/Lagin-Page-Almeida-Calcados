@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calçados Almeida</title>
 
+    <link rel="stylesheet" href="/CSS/styleNav.css">
     <link rel="stylesheet" href="/CSS/styleEmDestaque.css">
     <link rel="stylesheet" href="/CSS/styleBody.css">
     <link rel="stylesheet" href="/CSS/styleCarrossel.css">
@@ -13,10 +14,98 @@
 </head>
 <body>
     <div id="containerTotal">
-        <section id="Produtos">
+        <header>
 
+            <nav class="navbar navbar-expand-lg navbar-dark"
+                style="background-color: rgb(27, 53, 44);">
+
+                <div class="container">
+
+                    <a class="navbar-brand" href="#">
+                        <img
+                            src="/imagens/headerDivIMG/Logo.png"
+                            alt="Logo Almeida"
+                            height="130">
+                    </a>
+
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menuPrincipal">
+
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                        <ul class="navbar-nav ms-auto">
+
+                            <li class="nav-item c-White">
+                                <a class="nav-link" href="#EmDestaques">Destaques</a>
+                            </li>
+
+                            <li class="nav-item c-White">
+                                <a class="nav-link" href="#">Chinelos</a>
+                            </li>
+
+                            <li class="nav-item c-White">
+                                <a class="nav-link" href="#">Sandálias</a>
+                            </li>
+
+                            <li class="nav-item c-White">
+                                <a class="nav-link" href="#">Botas</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+
+            <div class="container my-5">
+
+                <div class="row align-items-center">
+
+
+                    <div class="col-lg-4 text-center">
+
+                        <img
+                            src="/imagens/headerDivIMG/osMelhoresCalcadosText.png"
+                            alt="Os Melhores Calçados"
+                            class="img-fluid mb-3 melhoresCalcadosText">
+
+                        <a href="#Produtos" class="btn btn-success px-4"
+                            style="background-color: rgb(27, 53, 44);border-radius: 0;">
+                            COMPRE JÁ!!
+                        </a>
+
+                    </div>
+
+
+                    <div class="col-lg-8 text-center">
+
+                        <img
+                            src="/imagens/headerDivIMG/OsMelhoresCalcados.png"
+                            alt="Os Melhores Calçados"
+                            class="img-fluid imgOsMelhoresCalcados">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <section id="Produtos">
+            <!--Em destaques-->
             <div class="Verde">
-                    <div class="EmDestaques">
+                    <div class="EmDestaques" id="EmDestaques">
                         <div class="EmDestaqueTitulo">
                             <div class="tituloEmDestaque">
                                 <img src="/imagens/headerDivIMG/brilhoBranco.png" alt="Brilho" class ="brilho">
