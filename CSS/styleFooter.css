@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: "Monteserrat italic";
+  src: url("/FONTS/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+.fonteFooter {
+  font-family: "Monteserrat italic";
+}
+
+.semDescorationFooter{
+    text-decoration: none;
+    color: white;
+}

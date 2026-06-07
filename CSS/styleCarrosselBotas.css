@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Monteserrat italic";
+  src: url("/FONTS/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+.divTexto {
+  width: 600px;
+  height: 250px;
+  background-color: #173a2e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.divTexto p {
+  font-size: 20px;
+}
+
+.divTexto button {
+  padding: 12px 40px;
+  font-family: "Monteserrat italic";
+}
+
+.carousel-item img {
+  max-width: 380px;
+}
+
+.semDescoration{
+    text-decoration: none;
+    color: #215543;
+}
+
+.spaceTop{
+    margin-top: 20px;
+}
