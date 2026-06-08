@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Monserrat";
+    src: url(/FONTS/Montserrat-VariableFont_wght.ttf);
+}
+
+.h5White{
+    color: white;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+
+.butaoBranco{
+    font-family: "Monserrat";
+    font-weight: 600;
+    border: none;
+    color: #173a2e;
+    transition: transform 1s ease-in-out;
+}
+
+.butaoBranco:hover{
+    transform: scale(1.01);
+}
